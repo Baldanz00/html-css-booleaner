@@ -9,7 +9,7 @@ body {
 }
 
 .blu-text {
-    color: rgb(32, 162, 218);
+    color: rgb(32, 103, 218);
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
 }
 
 header {
-    background-color: rgb(67, 126, 215);  
+    background-color: rgb(28, 80, 158);  
     background-image: url("../img/pattern.png");
     background-size: 20%;
 }
@@ -39,7 +39,7 @@ section, footer, .content, .elenco, .table {
 }
 
 .info-article {
-    color: rgb(152, 160, 160);
+    color: rgb(119, 150, 150);
     font-size: 14px;;
     margin-bottom: 4px;
 }
@@ -72,14 +72,13 @@ table {
     border: 0px solid;
     border-collapse: collapse;
 }
-
 .description-table {
     width: 50%;
 }
 
 thead {
-    background-color: rgb(83, 167, 223);
-    color: white;
+    background-color: rgb(19, 119, 185);
+    color: rgb(147, 214, 247);
     text-align: left;
 }
 
@@ -87,31 +86,16 @@ td {
     padding: 5px
 }
 
-.blu-row {
-    background-color: rgb(189, 227, 240);
-}
-
-#monitor1 {
-    background-image: url('../img/monitor.jpg');
-}
-
-#monitor2 {
-    background-image: url('../img/graph.jpg');
-}
-
-.small-photos {
-    width: 250px;
-    height: 150px;
-    font-size: 16px;
-    color: white;
-    padding: 12px 10px 0 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
 
 h3 {
     color: rgb(152, 160, 160);
     margin-bottom: 10px;
 } 
+footer {
+    background-color: rgb(23, 65, 129);  
+    background-size: 20%;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
