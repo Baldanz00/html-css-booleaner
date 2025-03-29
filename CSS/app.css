@@ -99,3 +99,10 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+main {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+}
