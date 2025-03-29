@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+
 body {
     font-size: 13px;
 }
@@ -15,7 +17,8 @@ h1{
 }
 
 header {
-    background-color: rgb(28, 80, 158); 
+    background-color: rgb(28, 80, 158);  
+    background-image: url("../img/pattern.png");
     background-size: 20%;
 }
 
@@ -95,4 +98,11 @@ footer {
     font-size: 12px;
     padding: 10px;
     text-align: center;
+}
+
+main {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
 }
