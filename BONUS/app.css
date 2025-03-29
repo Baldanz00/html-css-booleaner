@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+
 body {
     font-size: 13px;
 }
@@ -15,7 +17,8 @@ h1{
 }
 
 header {
-    background-color: rgb(28, 80, 158); 
+    background-color: rgb(28, 80, 158);  
+    background-image: url("../img/pattern.png");
     background-size: 20%;
 }
 
@@ -35,7 +38,7 @@ section, footer, .content, .elenco, .table {
     padding: 20px;
 }
 
-.info-autore {
+.info-article {
     color: rgb(119, 150, 150);
     font-size: 14px;;
     margin-bottom: 4px;
@@ -75,20 +78,24 @@ table {
 
 thead {
     background-color: rgb(19, 119, 185);
-    color: rgb(207, 217, 223);
+    color: rgb(147, 214, 247);
     text-align: left;
 }
 
+ .blu-rowe {
+    background-color: rgb(150, 167, 235);  
+ }     
+
 td {
-    padding: 5px;
+    padding: 5px
 }
 
 
-
 h3 {
-    color: rgb(71, 143, 231);
+    color: rgb(152, 160, 160);
     margin-bottom: 10px;
 } 
+
 footer {
     background-color: rgb(23, 65, 129);  
     background-size: 20%;
@@ -96,4 +103,11 @@ footer {
     font-size: 12px;
     padding: 10px;
     text-align: center;
+}
+
+main {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
 }
